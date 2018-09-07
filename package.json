@@ -1,0 +1,22 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "portfolio website",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bmmahmud/portfolio.git"
+  },
+  "author": "B.m.ashik mahmud",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bmmahmud/portfolio/issues"
+  },
+  "homepage": "https://github.com/bmmahmud/portfolio#readme",
+  "dependencies": {
+    "node-sass": "^4.9.3"
+  }
+}
