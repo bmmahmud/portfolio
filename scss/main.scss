@@ -1,15 +1,11 @@
-$primary-color: #444;
-$secondary-color: rgba(240, 243, 50, 0.933);
-
-@mixin easeout {
-  transition: all 0.5s ease-out;
-}
+@import "config";
 
 * {
   box-sizing: 10px;
 }
 
 body {
+  @include backgroud;
   background: $primary-color;
   color: #ffffff;
   height: 100%;
@@ -23,7 +19,6 @@ h2,
 h3 {
   margin: 0;
   font-weight: 400;
-
   &.lg-heading {
     font-size: 6rem;
   }
@@ -33,12 +28,10 @@ h3 {
     background: rgba(lighten($primary-color, 2), 0.5);
   }
 }
-
 a {
   color: #ffffff;
   text-decoration: none;
 }
-
 header {
   position: fix;
   z-index: 2;
@@ -47,20 +40,22 @@ header {
 .text-secondary {
   color: $secondary-color;
 }
-
 main {
   padding: 4rem;
   height: 100%;
-
   .icon {
     margin-top: 1rem;
-
     a {
-      padding: 0.4rem;
+      padding: 0.8rem;
       &:hover {
         color: $secondary-color;
-        @include easeout();
+        @include easeout(); // transition
       }
+    }
+  }
+  &#home {
+    overflow: hidden hi {
+      margin-top: 20vh;
     }
   }
 }

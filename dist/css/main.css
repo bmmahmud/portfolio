@@ -8,6 +8,20 @@ body {
   margin: 0;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5; }
+  body#bg-img {
+    background: url(../img/3.jpg);
+    background-attachment: fixed;
+    background-size: cover; }
+  body:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    right: 100%;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background: rgba(68, 68, 68, 0.9); }
 
 h1,
 h2,
@@ -43,7 +57,10 @@ main {
   main .icon {
     margin-top: 1rem; }
     main .icon a {
-      padding: 0.4rem; }
+      padding: 0.8rem; }
       main .icon a:hover {
         color: rgba(240, 243, 50, 0.933);
         transition: all 0.5s ease-out; }
+  main#home {
+    overflow: hidden hi;
+      overflow-margin-top: 20vh; }
