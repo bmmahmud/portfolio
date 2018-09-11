@@ -40,21 +40,25 @@ header {
 .text-secondary {
   color: $secondary-color;
 }
+
 main {
   padding: 4rem;
   height: 100%;
   .icon {
     margin-top: 1rem;
     a {
-      padding: 0.8rem;
+      padding: 0.6rem;
+
       &:hover {
         color: $secondary-color;
-        @include easeout(); // transition
+        @include easeout; // transition
       }
     }
   }
+
   &#home {
-    overflow: hidden hi {
+    overflow: hidden;
+    h1 {
       margin-top: 20vh;
     }
   }
